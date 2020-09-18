@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { TarefasModule } from './tarefas'
+import { TarefasModule } from './tarefas';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
